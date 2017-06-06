@@ -2,5 +2,7 @@
 from SubtitleTransfer import SubtitleTransfer
 
 if __name__ == '__main__':
-    s = SubtitleTransfer()
-    s.transfer("test.ass")
+    s = SubtitleTransfer("test.ass","Chinese")
+    s.transfer()
+    ss = SubtitleTransfer("test.srt","Chinese")
+    s.transfer()
