@@ -3,6 +3,7 @@ import sys
 import re
 import chardet
 
+
 class SubtitleTransfer:
     """
         Transfer Subtitle
@@ -133,7 +134,7 @@ class SubtitleTransfer:
         """
         del srt Chinese subtitle
         """
-        file = open(filename, 'r')
+        file = open(self.filename, 'r')
         newFile = open(self.newFileName, 'w')
 
         for line in file.readlines():

@@ -1,6 +1,6 @@
 # *_* coding:utf-8 *_*
 from SubtitleTransfer import SubtitleTransfer
-import re
+
 
 """汉字处理的工具:
 判断unicode是否是汉字，数字，英文，或者其他字符。
@@ -90,10 +90,8 @@ def string2List(ustring):
     return retList
 
 if __name__ == '__main__':
-    # s = SubtitleTransfer("test.ass","Chinese")
-    # s.transfer()
-    # ss = SubtitleTransfer("test.srt","Chinese")
-    # s.transfer()
-    s = r"{\an8}壓制 hhh王祖賢老婆".decode('utf-8')
-    ss =  re.findall("\{.*\}",s)[0]
-    print s.replace(ss,"")
+    s = SubtitleTransfer("test.ass","Chinese")
+    s.transfer()
+    ss = SubtitleTransfer("test.srt","Chinese")
+    ss.transfer()
+

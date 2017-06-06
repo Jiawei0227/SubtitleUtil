@@ -14,7 +14,7 @@ python SubtitleTransfer.py [YOUR SUBTITLE FILE PATH] [TYPE]
 ```
 > - TYPE: The type that you want to delete from your subtitle.
 > - [Chinese] [English] are available only
-> - *.ass* and *.srt* are available only
+> - FILE PATH :*.ass* and *.srt* are available only
 
 It will create a new file in your old path with the new postfix.
 
