@@ -59,7 +59,7 @@ I always found the subtitle download from Internet does not fit with my vedio. T
 python SubtitleDownloader.py [YOUR VEDIO FILE PATH] [LANGUAGE]
 ```
 > - [LANGUAGE] is optional.
-> - It only supports [English, Español, Français, Italiano, Nederlands, Polski, Português (Brazil), Român, Svenska, Türkçe] now
+> - It only supports [English, Espa帽ol, Fran莽ais, Italiano, Nederlands, Polski, Portugu锚s (Brazil), Rom芒n, Svenska, T眉rk莽e] now
 
 It will automatically download a [vedioname].srt file in your vedio path
 
