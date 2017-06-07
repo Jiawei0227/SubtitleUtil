@@ -2,6 +2,7 @@
 import sys
 import re
 import chardet
+import os
 
 
 class SubtitleTransfer:
@@ -18,16 +19,13 @@ class SubtitleTransfer:
         self.filename = filename
         self.file = open(filename)
 
-        self.newFileName = ""
+        fileName, extension = os.path.splitext(filename)
+        self.extension = extension
         code = chardet.detect(self.file.read())
         self.encoding = code['encoding']
         print "Encoding Type : " + self.encoding + ", Confidence : " + str(code['confidence'])
 
-        spilts = filename.split('.')
-        for i in range(0,len(spilts)-1):
-            self.newFileName += spilts[i]
-            self.newFileName += "."
-        self.newFileName += "_new_no" +type + "." +spilts[len(spilts)-1]
+        self.newFileName = fileName+ "_new_no" + type + extension
         self.type = type
 
     def is_chinese(self, uchar):
