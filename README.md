@@ -9,13 +9,13 @@ See each util for more details.
 **Requirement**:
  - python 2
  - python  ->  urllib2
-hh
+
 
 **Installation**:
 ```
-git clone https://github.com/WJerry0227/SubtitleUtil.git
-cd SubtitleUtil
-python [Subtitle Util Type].py [Usage]
+ - git clone https://github.com/WJerry0227/SubtitleUtil.git
+ - cd SubtitleUtil
+ - python [Subtitle Util Type].py [Usage]
 ```
 **Contact**:
 >wjerry227@gmail.com
