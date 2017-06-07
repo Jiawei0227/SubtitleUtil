@@ -61,8 +61,9 @@ I always found the subtitle download from Internet does not fit with my video. T
 python SubtitleDownloader.py [YOUR VIDEO FILE PATH] [LANGUAGE]
 ```
 > - [LANGUAGE] is optional.
-> - It only supports [English, Español, Français, Italiano, Nederlands, Polski, Português (Brazil), Român, Svenska, Türkçe] now
+> - [LANUGAGE] support type: [ en,es,fr,it,nl,pl,pt,ro,sv,tr ]
+> - It does not support Chinese yet.
 
-It will automatically download a [videoname].srt file in your video path
+It will automatically download a [VIDEONAME].srt file in your video path.
 
 
