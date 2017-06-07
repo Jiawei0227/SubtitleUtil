@@ -45,7 +45,7 @@ class SubtitleDownloader:
             else:
                 self.__download_subtitle(self.language)
         except:
-            print "Sorry, none subtitle has been found for this vedio."
+            print "Sorry, none subtitle has been found for this video."
             return
 
     def __download_subtitle(self, language):
@@ -64,7 +64,7 @@ class SubtitleDownloader:
 
 if __name__ == '__main__':
     if len(sys.argv) == 1:
-        print("This program requires your vedio path.")
+        print("This program requires your video path.")
         sys.exit(1)
     elif len(sys.argv) == 2:
         filePath = sys.argv[1]

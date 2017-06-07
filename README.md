@@ -9,6 +9,7 @@ See each util for more details.
 **Requirement**:
  - python 2
  - python  ->  urllib2
+hh
 
 **Installation**:
 ```
@@ -51,17 +52,17 @@ The encoding of your subtitle will be automatically detected.
 ## 2 Subtitle Downloader
 
 ### Intro
-It is a small python program to **download subtitle** for your vedio
+It is a small python program to **download subtitle** for your video
 
-I always found the subtitle download from Internet does not fit with my vedio. Then I search this website [SubDB](http://thesubdb.com/). Thanks to the API it provides.
+I always found the subtitle download from Internet does not fit with my video. Then I search this website [SubDB](http://thesubdb.com/). Thanks to the API it provides.
 
 ### Usage
 ```
-python SubtitleDownloader.py [YOUR VEDIO FILE PATH] [LANGUAGE]
+python SubtitleDownloader.py [YOUR VIDEO FILE PATH] [LANGUAGE]
 ```
 > - [LANGUAGE] is optional.
 > - It only supports [English, Español, Français, Italiano, Nederlands, Polski, Português (Brazil), Român, Svenska, Türkçe] now
 
-It will automatically download a [vedioname].srt file in your vedio path
+It will automatically download a [videoname].srt file in your video path
 
 
