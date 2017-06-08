@@ -5,7 +5,7 @@ import hashlib
 import os
 
 
-class SubtitleDownloader:
+class SubtitleDownloader(object):
     """
     this class is to help with the Subtitle Downloader
     """
